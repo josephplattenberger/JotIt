@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ok_button_color">#397ff3</color>
+    <color name="line_break">#212121</color>
+    <color name="dialog_subtext_color">#767676</color>
+</resources>

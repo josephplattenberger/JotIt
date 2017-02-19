@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+     <EditText
+         android:id="@+id/newThemeNameEditText"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+		 android:layout_marginTop="24dp"
+         android:layout_marginStart="24dp"
+		 android:layout_marginEnd="24dp"
+         android:hint="@string/theme_name_hint"
+		 android:maxLength="140"
+         android:ems="10"/>
+
+     <TextView
+         android:id="@+id/newThemeBackColorText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/newThemeNameEditText"
+		 android:layout_marginTop="20dp"
+         android:layout_marginStart="24dp"
+		 android:layout_marginBottom="8dp"
+         android:text="@string/background_color_text" />
+
+	 <Spinner
+	     android:id="@+id/newThemeBackSpinner"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_marginStart="24dp"
+	     android:layout_marginEnd="24dp"
+		 android:layout_marginBottom="8dp"
+	     android:layout_below="@+id/newThemeBackColorText" />
+	 
+	 <TextView
+         android:id="@+id/newThemeTextColorText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/newThemeBackSpinner"
+         android:layout_marginStart="24dp"
+		 android:layout_marginBottom="8dp"
+         android:text="@string/text_color_text" />
+	 
+	 <Spinner
+	     android:id="@+id/newThemeTextSpinner"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_marginStart="24dp"
+	     android:layout_marginEnd="24dp"
+		 android:layout_marginBottom="8dp"
+	     android:layout_below="@+id/newThemeTextColorText" />
+	 
+	 <TextView
+         android:id="@+id/newThemeHighColorText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/newThemeTextSpinner"
+         android:layout_marginStart="24dp"
+		 android:layout_marginBottom="8dp"
+         android:text="@string/highlight_color_text" />
+
+	<Spinner
+	     android:id="@+id/newThemeHighSpinner"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_marginStart="24dp"
+	     android:layout_marginEnd="24dp"
+		 android:layout_marginBottom="20dp"
+	     android:layout_below="@+id/newThemeHighColorText" />
+	 
+	 <Button
+         android:id="@+id/newThemeAcceptButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+		 android:layout_margin="8dp"
+		 android:paddingStart="8dp"
+		 android:paddingEnd="8dp"
+		 android:layout_alignParentEnd="true"
+		 android:layout_below="@+id/newThemeHighSpinner"
+		 android:text="@string/ok"
+		 style="@style/Widget.AppCompat.Button.Borderless"
+		 android:textColor="@color/ok_button_color"/>
+
+</RelativeLayout>
+</ScrollView>

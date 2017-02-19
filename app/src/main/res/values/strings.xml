@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jot-it</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="new_note">New Note</string>
+    <string name="new_group">New Group</string>
+    <string name="new_theme">New Theme</string>
+    <string name="change_group">Change Group</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="drawer_open">Menu</string>
+    <string name="drawer_close">All Notes</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="ok">OK</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete?</string>
+    <string name="group_name_hint">Enter Group Name…</string>
+    <string name="theme_name_hint">Enter Theme Name…</string>
+    <string name="subject_hint">Enter Subject…</string>
+    <string name="background_color_text">Background Color:</string>
+    <string name="text_color_text">Text Color:</string>
+    <string name="highlight_color_text">Highlight Color:</string>
+    <string name="open_source_text">This is an open source project, code is available at:</string>
+    <string name="open_source_link">https://github.com/josephplattenberger/JotIt</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Groups</item>
+        <item>Themes</item>
+        <item>About</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home_white</item>
+        <item>@drawable/ic_action_group</item>
+        <item>@drawable/ic_brush_white</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+
+    <string name="title_activity_edit_note">Edit Note</string>
+    <string name="title_activity_edit_themes">Themes</string>
+    <string name="title_activity_groups">Groups</string>
+    <string name="title_activity_help">About</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_activity_view_group">Group</string>
+
+</resources>

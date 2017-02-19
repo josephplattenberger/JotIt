@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/areYouSureDeleteText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="24dp"
+        android:text="@string/are_you_sure_delete"
+        android:textColor="@color/dialog_subtext_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <Button
+        android:id="@+id/deleteDialogDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/areYouSureDeleteText"
+        android:text="@string/delete"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/ok_button_color"/>
+
+    <Button
+        android:id="@+id/deleteDialogCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toStartOf="@+id/deleteDialogDeleteButton"
+        android:layout_below="@+id/areYouSureDeleteText"
+        android:text="@string/cancel"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/ok_button_color"/>
+
+</RelativeLayout>
